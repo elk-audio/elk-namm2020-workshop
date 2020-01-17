@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elk_juce_example - VST", "elk_juce_example_VST.vcxproj", "{34306632-0209-6674-E47A-827EB5439A82}"
+	ProjectSection(ProjectDependencies) = postProject
+		{790DD272-846A-5923-25B5-23184048AD83} = {790DD272-846A-5923-25B5-23184048AD83}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elk_juce_example - Shared Code", "elk_juce_example_SharedCode.vcxproj", "{790DD272-846A-5923-25B5-23184048AD83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34306632-0209-6674-E47A-827EB5439A82}.Debug|x64.ActiveCfg = Debug|x64
+		{34306632-0209-6674-E47A-827EB5439A82}.Debug|x64.Build.0 = Debug|x64
+		{34306632-0209-6674-E47A-827EB5439A82}.Release|x64.ActiveCfg = Release|x64
+		{34306632-0209-6674-E47A-827EB5439A82}.Release|x64.Build.0 = Release|x64
+		{790DD272-846A-5923-25B5-23184048AD83}.Debug|x64.ActiveCfg = Debug|x64
+		{790DD272-846A-5923-25B5-23184048AD83}.Debug|x64.Build.0 = Debug|x64
+		{790DD272-846A-5923-25B5-23184048AD83}.Release|x64.ActiveCfg = Release|x64
+		{790DD272-846A-5923-25B5-23184048AD83}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
